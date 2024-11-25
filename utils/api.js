@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = "http://localhost:8000/"
+const BASE_URL = "http://172.20.10.7:8000/"     // 172.20.10.7 it's my local IP address, so Expo works well fetching requests
 
 async function getAllDestinations() {
     const endpoint = BASE_URL + "destinations/"
